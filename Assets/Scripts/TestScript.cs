@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-
+/// <summary>
+/// This is a script aimed at testing the A* pathfinding system
+/// </summary>
 public class TestScript : MonoBehaviour
 {
     Tilemap tilemap;
