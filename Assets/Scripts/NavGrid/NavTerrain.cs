@@ -28,6 +28,10 @@ public class NavTerrain : MonoBehaviour
         CreateNavGrid();     
     }
 
+	/// <summary>
+	/// Create the navegrid
+	/// and save
+	/// </summary>
     private void CreateNavGrid()
     {
         for(int x=0; x < bounds.size.x; x++)
